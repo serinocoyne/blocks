@@ -1,0 +1,115 @@
+* {
+	margin:0;
+	padding:0;
+	border:none;}
+	
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;}
+
+.clearfix:after {
+    clear: both;}
+
+.clearfix {
+    *zoom: 1;}
+    
+    
+/* OVERRIDE CCM.APP.CSS */
+
+.ccm-ui input, .ccm-ui textarea, .ccm-ui select, .ccm-ui .uneditable-input {
+	display: inherit;
+	width: inherit;
+	height: inherit;
+	padding: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	border: none;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;}
+	
+.ccm-ui .label {
+	padding: inherit;
+	background-color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	text-transform: inherit;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;}
+
+
+/* CUSTOM STYLES */
+    
+ #schedule-wrapper {
+ 	margin:20px 0;
+ 	width:100%;}
+ 	
+ .header {
+ 	margin-bottom:10px;}
+
+.ui-datepicker-calendar tr td {
+	visibility:hidden;}
+
+.ui-datepicker-calendar tr td:first-child {
+	visibility:visible;}
+	
+.label {
+	width:50px;
+	float:left;}
+	
+.dateheader {
+	width:100px;}
+	
+.week-input {
+	margin-bottom:5px;}
+	
+#schedule-wrapper input {
+	float:left;
+	width:40px;
+	height:25px;
+	padding-left:5px;
+	margin-right:5px;
+	background:#efefef;}
+	
+#schedule-wrapper input.date {
+	width:90px;
+	margin-right:5px;}
+	
+#add-week-btn {
+	display:block;
+	width:30px;
+	height:28px;
+	margin:15px 0;
+	background:url(../images/add-btn.png) no-repeat 0 0;
+	background-size: 30px auto;
+	overflow:hidden;
+	cursor:pointer;}
+	
+#add-week-btn:hover {
+	background-position:0 -28px;}
+	
+#submit {
+	background:#efefef;
+	border-radius:8px;
+	color:black;
+	cursor:pointer;
+	padding:6px 9px;}
+	
+#schedule-wrapper .full-link {
+	padding-bottom:20px;
+	border-bottom:1px solid #efefef;
+	margin-bottom:30px;}
+	
+#schedule-wrapper .full-link p {
+	width:120px;
+	margin:4px 10px 0 0;
+	float: left;}
+	
+#schedule-wrapper .full-link input {
+	width:300px;
+	float:left;
+	padding-bottom:0;}

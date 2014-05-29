@@ -1,0 +1,4 @@
+.thumb-grid {margin:20px 0;}
+.thumb {float:left;width:150px;height:175px;margin:5px;}
+.thumb img {width:150px; height:100px; overflow: hidden;}
+.hidden-code {display: none;}

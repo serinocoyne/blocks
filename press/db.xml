@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btPress">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="category" type="C" size="255">
+		</field>
+		<field name="author" type="C" size="255">
+		</field>
+		<field name="publication" type="C" size="255">
+		</field>
+		<field name="date" type="C" size="255">
+		</field>
+		<field name="link" type="C" size="255">
+		</field>
+		<field name="fontSize" type="C" size="255">
+		</field>
+		<field name="featureImage" type="C" size="255">
+		</field>
+		<field name="pressHeadline" type="X">
+		</field>
+		<field name="pressReview" type="X">
+		</field>
+	</table>
+</schema>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	
+	<table name="btSchedule">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="flink" type="C" size="255">
+		</field>
+	</table>
+	
+	<table name="btScheduleWeek">
+		<field name="weekId" type="I">
+			<key />
+			<autoincrement />
+			<unsigned />
+		</field>
+		<field name="bID" type="I" />
+		<field name="date" type="D">
+		</field>
+		<field name="sun" type="C" size="255">
+		</field>
+		<field name="mon" type="C" size="255">
+		</field>
+		<field name="tue" type="C" size="255">
+		</field>
+		<field name="wed" type="C" size="255">
+		</field>
+		<field name="thu" type="C" size="255">
+		</field>
+		<field name="fri" type="C" size="255">
+		</field>
+		<field name="sat" type="C" size="255">
+		</field>
+	</table>
+	
+</schema>

@@ -1,0 +1,10 @@
+.clear {clear:both;}
+.add-video {cursor: pointer;}
+.new-video {display:none;}
+.sortable_row {background: #efefef; padding: 15px 10px; margin: 5px 0;}
+.thumb {float:left; width:160px; height:160px; overflow: hidden; margin:0 15px 0 0;}
+.thumb img {width:150px; height:100px; padding:5px; overflow: none;}
+.text-inputs {float:left; width:320px; height:66px;}
+.text-inputs div {margin:3px 0; float: right;}
+.form-controls {float: right; width:50px; height:66px;}
+.form-controls img {padding:0 3px;}
